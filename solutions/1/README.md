@@ -6,6 +6,7 @@ Things to remember:
 2. Indexes are not zero-based
 3. The numbers are not ordered by size
 4. Index 1 < index 2
+5. Duplicate numbers can exist
 
 So #3 and #4 are an issue since it would be nice to sort the array, but you would lose the indexes.  You could either copy the array with indexes (key-value pair but it doesn't say anything about duplicate values).  Or, search for the number afterwards (linear since numbers are not ordered by size).
 
